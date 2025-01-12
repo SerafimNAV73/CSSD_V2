@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: fcf13055f60a5ba45b36d2803c0db3b6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Magic bullets_1
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 520
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ceb270e8c039743b4a931835665ff9
+      internalID: 1813679422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic bullets_2
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 520
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84abe22c68ee4c459d3370497fa5949
+      internalID: -76835203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic bullets_3
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 520
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3035a6b0375ba2c42bdedf84d0e3044e
+      internalID: -3861517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic bullets_4
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 520
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce006b528c21ee246aee1803b7da4dfd
+      internalID: 4710753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Magic bullets_0: -1017305501
+      Magic bullets_1: 1813679422
+      Magic bullets_10: -780793227
+      Magic bullets_11: -528581748
+      Magic bullets_12: -1815617049
+      Magic bullets_13: -1928809590
+      Magic bullets_14: -2119764393
+      Magic bullets_15: 1049238868
+      Magic bullets_16: -1389186341
+      Magic bullets_17: 597606782
+      Magic bullets_18: 1381397791
+      Magic bullets_19: -1085359766
+      Magic bullets_2: -76835203
+      Magic bullets_20: 421164423
+      Magic bullets_21: 1820309062
+      Magic bullets_22: -1253929384
+      Magic bullets_23: 1694935270
+      Magic bullets_24: -827658792
+      Magic bullets_25: 1239683327
+      Magic bullets_26: 1519181782
+      Magic bullets_27: -1249384577
+      Magic bullets_28: 468559810
+      Magic bullets_29: 1195530904
+      Magic bullets_3: -3861517
+      Magic bullets_30: 215680182
+      Magic bullets_31: -2066899098
+      Magic bullets_32: -1756846301
+      Magic bullets_33: 710764940
+      Magic bullets_34: 308321127
+      Magic bullets_35: 99275003
+      Magic bullets_36: 1874483745
+      Magic bullets_37: 780598976
+      Magic bullets_38: -1261899538
+      Magic bullets_39: 2141046913
+      Magic bullets_4: 4710753
+      Magic bullets_40: -1539808932
+      Magic bullets_41: -544492233
+      Magic bullets_42: 101601348
+      Magic bullets_43: 340464999
+      Magic bullets_48: -832856579
+      Magic bullets_49: -137560573
+      Magic bullets_5: -700849302
+      Magic bullets_50: 49807227
+      Magic bullets_51: 946436770
+      Magic bullets_52: -758245008
+      Magic bullets_53: 1031814927
+      Magic bullets_54: 93347908
+      Magic bullets_55: -729545351
+      Magic bullets_56: -1561616899
+      Magic bullets_57: -64247713
+      Magic bullets_58: -929584376
+      Magic bullets_59: -1816588714
+      Magic bullets_6: -1824681127
+      Magic bullets_60: -862118249
+      Magic bullets_61: -1809870391
+      Magic bullets_62: 192849459
+      Magic bullets_63: -442877663
+      Magic bullets_64: -616233986
+      Magic bullets_65: 85835910
+      Magic bullets_66: 1667434351
+      Magic bullets_67: -1878537956
+      Magic bullets_68: -269502317
+      Magic bullets_69: 1498365784
+      Magic bullets_7: -1168774592
+      Magic bullets_70: 1562366691
+      Magic bullets_71: 69079274
+      Magic bullets_72: -548118473
+      Magic bullets_73: -875026476
+      Magic bullets_74: 1132889049
+      Magic bullets_75: 1856765037
+      Magic bullets_76: -1594390426
+      Magic bullets_77: -1665080650
+      Magic bullets_78: 1540115671
+      Magic bullets_79: -712917771
+      Magic bullets_8: 242247750
+      Magic bullets_80: -1455750631
+      Magic bullets_81: -232118695
+      Magic bullets_82: 15370065
+      Magic bullets_83: -1187845880
+      Magic bullets_84: 69674981
+      Magic bullets_85: 1918425554
+      Magic bullets_86: -428548918
+      Magic bullets_87: -659900316
+      Magic bullets_88: 649760651
+      Magic bullets_89: -573773637
+      Magic bullets_9: 475289334
+      Magic bullets_90: -131052834
+      Magic bullets_91: 733274167
+      Magic bullets_92: 256971074
+      Magic bullets_93: 1722183275
+      Magic bullets_94: 762840435
+      Magic bullets_95: 878391351
+      Magic bullets_96: 848897721
+      Magic bullets_97: 1381769847
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

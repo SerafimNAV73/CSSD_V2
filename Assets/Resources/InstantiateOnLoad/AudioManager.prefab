@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &627059831284127688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4569008220280980916}
+  - component: {fileID: -5827911074962805009}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4569008220280980916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627059831284127688}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5827911074962805009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627059831284127688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b66426ee96d08499ea22c98ecbdcd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clickEvent:
+    Guid:
+      Data1: -160735942
+      Data2: 1138811095
+      Data3: 1079613613
+      Data4: -1551373146
+    Path: event:/UIActions/ButtonClickSound
+  _sliderEvent:
+    Guid:
+      Data1: 1978911568
+      Data2: 1179765400
+      Data3: 1826788028
+      Data4: -603091907
+    Path: event:/UIActions/Slider
+  _mainMenuEvent:
+    Guid:
+      Data1: 632293884
+      Data2: 1188809480
+      Data3: 1352195716
+      Data4: 1928278344
+    Path: event:/Themes/MainMenuTheme
+  _waveStartEvent:
+    Guid:
+      Data1: -1352384600
+      Data2: 1160425239
+      Data3: -2090003053
+      Data4: 2113153771
+    Path: event:/Themes/WaveStartTheme
+  _waveEndEvent:
+    Guid:
+      Data1: 905540093
+      Data2: 1081257888
+      Data3: 189016487
+      Data4: 621678376
+    Path: event:/Themes/WaveEndTheme
+  _statisticsEvent:
+    Guid:
+      Data1: -699247520
+      Data2: 1146718789
+      Data3: 1053214344
+      Data4: 1221398767
+    Path: event:/Themes/EndGameTheme
+  _playerJoinEvent:
+    Guid:
+      Data1: -1030014886
+      Data2: 1303935240
+      Data3: -1432440943
+      Data4: -790209437
+    Path: event:/Player/PlayerJoin
+  _playerLeftEvent:
+    Guid:
+      Data1: -815100453
+      Data2: 1335862836
+      Data3: 1297299860
+      Data4: 225644534
+    Path: event:/Player/PlayerLeft
+  _playerShotEvent:
+    Guid:
+      Data1: 1270553325
+      Data2: 1270874814
+      Data3: -1153784152
+      Data4: -392781333
+    Path: event:/Player/PlayerShot
+  _playerReloadEvent:
+    Guid:
+      Data1: -1927879188
+      Data2: 1199370154
+      Data3: 1169524107
+      Data4: 643026469
+    Path: event:/Player/PlayerReload
+  _playerOutOfAmmoEvent:
+    Guid:
+      Data1: -1193294625
+      Data2: 1185394981
+      Data3: 1394825
+      Data4: -450583271
+    Path: event:/Player/PlayerOutOfAmmo
+  _playerRespawnEvent:
+    Guid:
+      Data1: 838085442
+      Data2: 1272715944
+      Data3: 192938430
+      Data4: 91331521
+    Path: event:/Player/PlayerRespawn
+  _damagePickUpEvent:
+    Guid:
+      Data1: 591015088
+      Data2: 1099169259
+      Data3: -1471617351
+      Data4: -246824318
+    Path: event:/PickUps/BuffSound1
+  _walkSpeedPickUpEvent:
+    Guid:
+      Data1: 781158820
+      Data2: 1272341909
+      Data3: 138161800
+      Data4: -1517452012
+    Path: event:/PickUps/BuffSound2
+  _reloadSpeedPickUpEvent:
+    Guid:
+      Data1: -1167403299
+      Data2: 1137356194
+      Data3: -1195260016
+      Data4: -685992257
+    Path: event:/PickUps/BuffSound3
+  _armorPickUpEvent:
+    Guid:
+      Data1: 81288838
+      Data2: 1335218061
+      Data3: -174188896
+      Data4: 668215046
+    Path: event:/PickUps/BuffSound4
+  _healPickUpEvent:
+    Guid:
+      Data1: 1165371053
+      Data2: 1257699233
+      Data3: -1853404003
+      Data4: 985891599
+    Path: event:/PickUps/Healing
+  _enemySpawnEvent:
+    Guid:
+      Data1: -1564558462
+      Data2: 1226750575
+      Data3: -1347503433
+      Data4: -1190001907
+    Path: event:/Enemy/EnemySpawn
+  _enemyMeleeAttackEvent:
+    Guid:
+      Data1: 1823437200
+      Data2: 1177241479
+      Data3: 1884080277
+      Data4: -1965355232
+    Path: event:/Enemy/EnemyMeleeAttack
+  _enemyRangeAttackEvent:
+    Guid:
+      Data1: 1823437200
+      Data2: 1177241479
+      Data3: 1884080277
+      Data4: -1965355232
+    Path: event:/Enemy/EnemyMeleeAttack

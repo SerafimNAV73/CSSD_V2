@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1387641878648437604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3262586757782749145}
+  - component: {fileID: 3326639747224258463}
+  - component: {fileID: 8059793577219468600}
+  m_Layer: 0
+  m_Name: BonusesSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3262586757782749145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387641878648437604}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3326639747224258463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387641878648437604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e462e5c3d725c044187da5874db21bdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bonusesList:
+  - {fileID: 8177551137430186631, guid: 8cd5a2259e8d75242afb3d1f17474f76, type: 3}
+  - {fileID: 355755427860479422, guid: 82f21ae5865dbba4bb7549dcc16c5798, type: 3}
+  - {fileID: 2096096476945065975, guid: f3311fb7532d4aa45915deddce359c9e, type: 3}
+  - {fileID: 1387131784346537189, guid: 6f70fd5965634734596920a83717757a, type: 3}
+  - {fileID: 5713072662557841291, guid: 65dce02e8ae3ff8459629530ac312e60, type: 3}
+  _startSpawnChance: 5
+  _waveChanceUp: 5
+--- !u!114 &8059793577219468600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387641878648437604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 2509617583
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 3326639747224258463}

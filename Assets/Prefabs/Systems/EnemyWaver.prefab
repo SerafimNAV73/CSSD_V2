@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5659048515494598794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5926809413066543989}
+  - component: {fileID: 1401444007427804196}
+  - component: {fileID: 730421452639099954}
+  m_Layer: 0
+  m_Name: EnemyWaver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5926809413066543989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5659048515494598794}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1401444007427804196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5659048515494598794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 787bcbaeafbc8144291f9687f2eed426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meleeEnemyPrefab: {fileID: 2407212990292761270, guid: 4b21625c91a30d04c934731798c47ef5, type: 3}
+  _rangedEnemyPrefab: {fileID: 2407212990292761270, guid: 4a4cf7f41b93e7848b17f9e744129ad9, type: 3}
+  _bigEnemyPrefab: {fileID: 2407212990292761270, guid: 07ce3f79f5b07f24bb299c9c1f550815, type: 3}
+  _waveSpawnDelay: 5
+  _rangedEnemyWaveDelay: 1
+  _bigEnemyWaveDelay: 2
+  _startMeleeEnemyCount: 5
+  _startRangedEnemyCount: 3
+  _startBigEnemyCount: 1
+  _enemySpawnPointTag: EnemySpawn
+--- !u!114 &730421452639099954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5659048515494598794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 701472780
+  ObjectInterest: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 1401444007427804196}
